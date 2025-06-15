@@ -1,0 +1,60 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.passwordgen {
+  background-color: steelblue;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#password-column {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+#password-length {
+  width: 40px;
+  margin-left: 10px;    
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+label {
+  color: white;
+  margin-right: 10px;
+}
+
+#include-numbers {
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
